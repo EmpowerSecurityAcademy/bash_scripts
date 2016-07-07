@@ -4,13 +4,13 @@ script_path=${0%/*}
 
 source "$script_path/example_script.sh"
 
-testFavoriteNumber() 
+testFavoriteNumberFAIL() 
 {
   favorite_number
   assertTrue "This is the message if it fails" "[ $? -eq 5 ]"
 }
 
-testMyComparison() 
+testFavoriteNumberPASS() 
 {
   favorite_number
   assertTrue "This is the message if it fails" "[ $? -eq 7 ]"
