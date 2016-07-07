@@ -2,12 +2,18 @@
 
 script_path=${0%/*}
 
-"$script_path/example_script.sh"
+source "$script_path/example_script.sh"
+
+testFavoriteNumber() 
+{
+  favorite_number
+  assertTrue "This is the message if it fails" "[ $? -eq 5 ]"
+}
 
 testMyComparison() 
 {
-  assertTrue "This is the message if it fails" "[ 1 -eq 1 ]"
+  favorite_number
+  assertTrue "This is the message if it fails" "[ $? -eq 7 ]"
 }
-
 
 . shunit2
