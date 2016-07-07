@@ -2,7 +2,7 @@
 
 script_path=${0%/*}
 
-"$scritp_path/example_script.sh"
+"$script_path/example_script.sh"
 
 testMyComparison() 
 {
