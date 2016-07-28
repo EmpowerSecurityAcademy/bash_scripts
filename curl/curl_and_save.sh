@@ -1,1 +1,1 @@
-curl http://www.empowersecurityacademy.com > ../tmp/empowersecurityacademy.html
+curl http://www.empowersecurityacademy.com/team/ > ../tmp/empowersecurityacademyteam.html
