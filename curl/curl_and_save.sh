@@ -1,0 +1,1 @@
+curl http://www.empowersecurityacademy.com > ../tmp/empowersecurityacademy.html
