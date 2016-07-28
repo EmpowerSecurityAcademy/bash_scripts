@@ -1,1 +1,3 @@
-curl http://www.empowersecurityacademy.com
+#!/bin/bash
+
+curl -v http://www.empowersecurityacademy.com
